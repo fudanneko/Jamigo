@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context>
+
+	<Resource name="jdbc/javaFramework" type="javax.sql.DataSource"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		jdbcUrl="jdbc:mysql://localhost:3306/JAVA_FRAMEWORK"
+		username="root"
+		password="as04520203"
+		factory="com.zaxxer.hikari.HikariJNDIFactory"
+		minimumIdle="5"
+		maximumPoolSize="10"
+		connectionTimeout="30000"
+	/>
+
+</Context>
