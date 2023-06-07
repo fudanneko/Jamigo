@@ -4,10 +4,10 @@ import java.util.List;
 
 public class EmpService {
 
-	private EmpDAO_interface dao;
+	private EmpDaoImpl dao;
 
 	public EmpService() {
-		dao = new EmpDAO();
+		dao = new EmpDaoImpl();
 	}
 
 	public EmpVO addEmp(String ename, String job, java.sql.Date hiredate,
