@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Jamigo" />
+        <module name="hibernate-exercise" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Jamigo" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
